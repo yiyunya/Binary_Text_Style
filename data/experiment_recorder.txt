@@ -1,0 +1,9779 @@
+method: multinomialNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.492s
+
+Best score: 0.845
+Best parameters set:
+Test set score: 0.606667
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__algorithm': ('ball_tree', 'kd_tree', 'brute'),
+ 'clf__n_neighbors': (3, 5, 7),
+ 'clf__weights': ('uniform', 'distance'),
+ 'tfidf__norm': ('l1', 'l2'),
+ 'vec__max_df': (0.5, 0.75, 1.0),
+ 'vec__max_features': (None, 5000, 10000, 50000),
+ 'vec__ngram_range': ((1, 1), (1, 2))}
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__n_neighbors': (3, 5, 7), 'clf__weights': ('uniform', 'distance')}
+done in 56.887s
+
+Best score: 0.924
+Best parameters set:
+	clf__n_neighbors: 7
+	clf__weights: 'distance'
+Test set score: 0.886667
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__n_neighbors': (3, 7, 9, 11)}
+done in 36.139s
+
+Best score: 0.924
+Best parameters set:
+	clf__n_neighbors: 7
+Test set score: 0.886667
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.844s
+
+Best score: 0.931
+Best parameters set:
+Test set score: 0.890000
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.5, 0.75, 1.0)}
+done in 19.190s
+
+Best score: 0.931
+Best parameters set:
+	vec__max_df: 0.5
+Test set score: 0.890000
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (None, 5000, 10000, 50000)}
+done in 24.017s
+
+Best score: 0.931
+Best parameters set:
+	vec__max_features: None
+Test set score: 0.890000
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__ngram_range': ((1, 1), (1, 2))}
+done in 17.865s
+
+Best score: 0.931
+Best parameters set:
+	vec__ngram_range: (1, 1)
+Test set score: 0.890000
+
+
+
+
+method: multinomialNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.740s
+
+Best score: 0.860
+Best parameters set:
+Test set score: 0.663333
+
+
+
+
+method: multinomialNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: multinomialNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.641s
+
+Best score: 0.860
+Best parameters set:
+Test set score: 0.663333
+
+
+
+
+method: KNN
+preprocessing: standardscaler
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'scaler', 'clf']
+{}
+method: KNN
+preprocessing: standardscaler
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'scaler', 'clf']
+{}
+done in 6.432s
+
+Best score: 0.705
+Best parameters set:
+Test set score: 0.635000
+
+
+
+
+method: KNN
+preprocessing: None
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.575s
+
+Best score: 0.931
+Best parameters set:
+Test set score: 0.890000
+
+
+
+
+method: KNN
+preprocessing: None
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 10.974s
+
+Best score: 0.929
+Best parameters set:
+Test set score: 0.885000
+
+
+
+
+method: KNN
+preprocessing: None
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+trigram temp
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 15.210s
+
+Best score: 0.929
+Best parameters set:
+Test set score: 0.891667
+
+
+
+
+method: KNN
+preprocessing: Polynomial
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'scaler', 'clf']
+{}
+method: KNN
+preprocessing: Polynomial
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+method: KNN
+preprocessing: Polynomial
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.757s
+
+Best score: 0.825
+Best parameters set:
+Test set score: 0.501667
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'scaler', 'clf']
+{}
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'scaler', 'clf']
+{}
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.796s
+
+Best score: 0.929
+Best parameters set:
+Test set score: 0.891667
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 15.499s
+
+Best score: 0.929
+Best parameters set:
+Test set score: 0.891667
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'scaler', 'clf']
+{}
+method: multinomialNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 9.776s
+
+Best score: 0.871
+Best parameters set:
+Test set score: 0.698333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.679s
+
+Best score: 0.907
+Best parameters set:
+Test set score: 0.820000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.5, 0.75, 1.0)}
+done in 7.076s
+
+Best score: 0.907
+Best parameters set:
+	vec__max_df: 0.5
+Test set score: 0.820000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (None, 5000, 10000, 50000)}
+done in 9.898s
+
+Best score: 0.937
+Best parameters set:
+	vec__max_features: 5000
+Test set score: 0.915000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.198s
+
+Best score: 0.937
+Best parameters set:
+Test set score: 0.915000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__ngram_range': ((1, 1), (1, 2), (1, 3))}
+done in 18.299s
+
+Best score: 0.942
+Best parameters set:
+	vec__ngram_range: (1, 3)
+Test set score: 0.921667
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'tfidf__norm': ('l1', 'l2')}
+done in 17.792s
+
+Best score: 0.942
+Best parameters set:
+	tfidf__norm: 'l1'
+Test set score: 0.921667
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__alpha': (0, 1)}
+done in 17.278s
+
+Best score: 0.942
+Best parameters set:
+	clf__alpha: 1
+Test set score: 0.921667
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__binarize': (0, 1)}
+done in 16.797s
+
+Best score: 0.942
+Best parameters set:
+	clf__binarize: 0
+Test set score: 0.921667
+
+
+
+
+method: RadiusNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.5, 0.75, 1.0)}
+method: RadiusNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'clf']
+{'clf__algorithm': ('ball_tree', 'kd_tree')}
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'clf']
+{}
+done in 27.475s
+
+Best score: 0.840
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'clf']
+{}
+done in 25.682s
+
+Best score: 0.840
+Test set score: 0.563333
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'clf']
+{}
+done in 28.264s
+
+Best score: 0.841
+Best parameters set:
+Test set score: 0.540000
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'clf']
+{}
+done in 56.979s
+
+Best score: 0.869
+Best parameters set:
+Test set score: 0.706667
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'clf']
+{}
+done in 349.175s
+
+Best score: 0.917
+Best parameters set:
+Test set score: 0.850000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__alpha': (0.1, 0.3, 0.5, 0.7, 0.9, 1)}
+done in 48.303s
+
+Best score: 0.949
+Best parameters set:
+	clf__alpha: 0.1
+Test set score: 0.926667
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__alpha': (0.05, 0.1, 0.15, 0.2)}
+done in 33.032s
+
+Best score: 0.950
+Best parameters set:
+	clf__alpha: 0.15
+Test set score: 0.930000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__alpha': (0.13, 0.15, 0.17)}
+done in 25.699s
+
+Best score: 0.950
+Best parameters set:
+	clf__alpha: 0.13
+Test set score: 0.928333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 9.703s
+
+Best score: 0.949
+Best parameters set:
+Test set score: 0.930000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 10.634s
+
+Best score: 0.949
+Best parameters set:
+Test set score: 0.930000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.606s
+
+Best score: 0.864
+Best parameters set:
+Test set score: 0.615000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{'chi__k': (1000, 2000, 3000, 4000)}
+done in 33.056s
+
+Best score: 0.949
+Best parameters set:
+	chi__k: 4000
+Test set score: 0.928333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{'chi__k': (3500, 4000, 4500)}
+done in 28.202s
+
+Best score: 0.950
+Best parameters set:
+	chi__k: 3500
+Test set score: 0.920000
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{'chi__k': (3500, 4000, 4500)}
+done in 25.674s
+
+Best score: 0.949
+Best parameters set:
+	chi__k: 4000
+Test set score: 0.928333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{'chi__k': (3000, 5000, 7000, 10000, 15000)}
+done in 43.633s
+
+Best score: 0.914
+Best parameters set:
+	chi__k: 3000
+Test set score: 0.826667
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{'chi__k': (3000, 7000), 'vec__max_features': (3000, 5000, 10000, 50000)}
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{'chi__k': (2000, 3000), 'vec__max_features': (3000, 5000, 10000, 50000)}
+done in 61.351s
+
+Best score: 0.948
+Best parameters set:
+	chi__k: 3000
+	vec__max_features: 5000
+Test set score: 0.926667
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (3000, 5000, 7000)}
+done in 24.166s
+
+Best score: 0.951
+Best parameters set:
+	vec__max_features: 7000
+Test set score: 0.938333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (6000, 7000, 8000)}
+done in 26.559s
+
+Best score: 0.954
+Best parameters set:
+	vec__max_features: 8000
+Test set score: 0.933333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (8000, 9000, 10000)}
+done in 23.875s
+
+Best score: 0.954
+Best parameters set:
+	vec__max_features: 9000
+Test set score: 0.933333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__alpha': (0.11, 0.13, 0.15, 0.17)}
+done in 33.186s
+
+Best score: 0.952
+Best parameters set:
+	clf__alpha: 0.11
+Test set score: 0.936667
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__alpha': (0.13, 0.15, 0.17)}
+done in 25.999s
+
+Best score: 0.952
+Best parameters set:
+	clf__alpha: 0.13
+Test set score: 0.938333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'chi__k': (4000, 5000, 6000)}
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{'chi__k': (4000, 5000, 6000)}
+done in 25.952s
+
+Best score: 0.953
+Best parameters set:
+	chi__k: 6000
+Test set score: 0.938333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 68.163s
+
+Best score: 0.952
+Best parameters set:
+Test set score: 0.930000
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.969s
+
+Best score: 0.941
+Best parameters set:
+Test set score: 0.860000
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (None, 5000, 10000, 50000)}
+done in 12.894s
+
+Best score: 0.942
+Best parameters set:
+	vec__max_features: 5000
+Test set score: 0.870000
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.916s
+
+Best score: 0.937
+Best parameters set:
+Test set score: 0.863333
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__ngram_range': ((1, 1), (1, 2), (1, 3))}
+done in 17.390s
+
+Best score: 0.940
+Best parameters set:
+	vec__ngram_range: (1, 3)
+Test set score: 0.863333
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'tfidf__norm': ('l1', 'l2')}
+done in 5.487s
+
+Best score: 0.937
+Best parameters set:
+	tfidf__norm: 'l2'
+Test set score: 0.863333
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__tol': (0.01, 0.001)}
+done in 5.810s
+
+Best score: 0.937
+Best parameters set:
+	clf__tol: 0.001
+Test set score: 0.863333
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__max_iter': (1, 2)}
+done in 5.796s
+
+Best score: 0.931
+Best parameters set:
+	clf__max_iter: 2
+Test set score: 0.833333
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.159s
+
+Best score: 0.937
+Best parameters set:
+Test set score: 0.863333
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.395s
+
+Best score: 0.941
+Best parameters set:
+Test set score: 0.918333
+
+
+
+
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.288s
+
+Best score: 0.941
+Best parameters set:
+Test set score: 0.918333
+
+
+
+
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.279s
+
+Best score: 0.923
+Best parameters set:
+Test set score: 0.885000
+
+
+
+
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.5, 0.75, 1.0)}
+done in 7.254s
+
+Best score: 0.923
+Best parameters set:
+	vec__max_df: 0.5
+Test set score: 0.885000
+
+
+
+
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.25, 0.5, 0.75, 1.0)}
+done in 9.297s
+
+Best score: 0.926
+Best parameters set:
+	vec__max_df: 0.25
+Test set score: 0.883333
+
+
+
+
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (None, 5000, 10000, 50000)}
+done in 9.653s
+
+Best score: 0.930
+Best parameters set:
+	vec__max_features: None
+Test set score: 0.886667
+
+
+
+
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__ngram_range': ((1, 1), (1, 2), (1, 3))}
+done in 15.660s
+
+Best score: 0.930
+Best parameters set:
+	vec__ngram_range: (1, 1)
+Test set score: 0.886667
+
+
+
+
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__alpha': (0.001, 1e-05)}
+done in 4.774s
+
+Best score: 0.930
+Best parameters set:
+	clf__alpha: 0.001
+Test set score: 0.886667
+
+
+
+
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__shuffle': (True, False)}
+done in 5.014s
+
+Best score: 0.930
+Best parameters set:
+	clf__shuffle: True
+Test set score: 0.886667
+
+
+
+
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.529s
+
+Best score: 0.893
+Best parameters set:
+Test set score: 0.891667
+
+
+
+
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.974s
+
+Best score: 0.939
+Best parameters set:
+Test set score: 0.885000
+
+
+
+
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.25, 0.5, 0.75, 1.0)}
+done in 8.972s
+
+Best score: 0.940
+Best parameters set:
+	vec__max_df: 0.25
+Test set score: 0.878333
+
+
+
+
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'clf']
+{}
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'todense', 'clf']
+{'vec__max_df': (0.25, 0.5, 0.75, 1.0)}
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.25, 0.5, 0.75, 1.0)}
+done in 51.671s
+
+Best score: 0.929
+Best parameters set:
+	vec__max_df: 0.5
+Test set score: 0.891667
+
+
+
+
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (None, 5000, 10000, 50000)}
+done in 8.638s
+
+Best score: 0.944
+Best parameters set:
+	vec__max_features: None
+Test set score: 0.885000
+
+
+
+
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__ngram_range': ((1, 1), (1, 2), (1, 3))}
+done in 14.840s
+
+Best score: 0.939
+Best parameters set:
+	vec__ngram_range: (1, 1)
+Test set score: 0.876667
+
+
+
+
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__fit_intercept': (True, False)}
+done in 4.745s
+
+Best score: 0.939
+Best parameters set:
+	clf__fit_intercept: True
+Test set score: 0.875000
+
+
+
+
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__fit_intercept': (True, False),
+ 'vec__ngram_range': ((1, 1), (1, 2), (1, 3))}
+done in 28.055s
+
+Best score: 0.940
+Best parameters set:
+	clf__fit_intercept: True
+	vec__ngram_range: (1, 1)
+Test set score: 0.870000
+
+
+
+
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf_loss': ('hinge', 'squared_hinge')}
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__loss': ('hinge', 'squared_hinge')}
+done in 4.538s
+
+Best score: 0.940
+Best parameters set:
+	clf__loss: 'squared_hinge'
+Test set score: 0.876667
+
+
+
+
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.810s
+
+Best score: 0.941
+Best parameters set:
+Test set score: 0.878333
+
+
+
+
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__average': (0, 1, 10, 20)}
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__average': (0, 1, 10, 20)}
+method: RandomForest
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.557s
+
+Best score: 0.870
+Best parameters set:
+Test set score: 0.650000
+
+
+
+
+method: RandomForest
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.25, 0.5, 0.75, 1.0)}
+done in 12.274s
+
+Best score: 0.874
+Best parameters set:
+	vec__max_df: 0.75
+Test set score: 0.646667
+
+
+
+
+method: RandomForest
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__n_estimators': (20, 50, 100, 200)}
+done in 38.931s
+
+Best score: 0.882
+Best parameters set:
+	clf__n_estimators: 100
+Test set score: 0.670000
+
+
+
+
+method: RandomForest
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.538s
+
+Best score: 0.879
+Best parameters set:
+Test set score: 0.671667
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 31.931s
+
+Best score: 0.833
+Best parameters set:
+Test set score: 0.500000
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.306s
+
+Best score: 0.945
+Best parameters set:
+Test set score: 0.886667
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.314s
+
+Best score: 0.945
+Best parameters set:
+Test set score: 0.886667
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.574s
+
+Best score: 0.945
+Best parameters set:
+Test set score: 0.886667
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.316s
+
+Best score: 0.945
+Best parameters set:
+Test set score: 0.886667
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.258s
+
+Best score: 0.945
+Best parameters set:
+Test set score: 0.886667
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.25, 0.5, 0.75, 1.0)}
+done in 10.817s
+
+Best score: 0.945
+Best parameters set:
+	vec__max_df: 0.5
+Test set score: 0.880000
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__ngram_range': ((1, 1), (1, 2), (1, 3))}
+done in 26.301s
+
+Best score: 0.945
+Best parameters set:
+	vec__ngram_range: (1, 1)
+Test set score: 0.886667
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.007s
+
+Best score: 0.943
+Best parameters set:
+Test set score: 0.855000
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.25, 0.5, 0.75, 1.0)}
+done in 9.898s
+
+Best score: 0.946
+Best parameters set:
+	vec__max_df: 0.5
+Test set score: 0.905000
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (None, 5000, 10000, 50000)}
+done in 10.976s
+
+Best score: 0.945
+Best parameters set:
+	vec__max_features: 50000
+Test set score: 0.898333
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__ngram_range': ((1, 1), (1, 2), (1, 3))}
+done in 26.634s
+
+Best score: 0.950
+Best parameters set:
+	vec__ngram_range: (1, 2)
+Test set score: 0.906667
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__loss': ('log',
+               'modified_huber',
+               'squared_hinge',
+               'perceptron',
+               'squared_loss',
+               'huber',
+               'epsilon_insensitive',
+               'squared_epsilon_insensitive')}
+done in 63.611s
+
+Best score: 0.950
+Best parameters set:
+	clf__loss: 'squared_loss'
+Test set score: 0.880000
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__loss': ('log',
+               'modified_huber',
+               'squared_hinge',
+               'perceptron',
+               'huber',
+               'epsilon_insensitive',
+               'squared_epsilon_insensitive')}
+done in 57.157s
+
+Best score: 0.950
+Best parameters set:
+	clf__loss: 'modified_huber'
+Test set score: 0.903333
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__loss': ('log',
+               'squared_hinge',
+               'perceptron',
+               'huber',
+               'epsilon_insensitive',
+               'squared_epsilon_insensitive')}
+done in 47.305s
+
+Best score: 0.948
+Best parameters set:
+	clf__loss: 'epsilon_insensitive'
+Test set score: 0.896667
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__loss': ('log',
+               'squared_hinge',
+               'perceptron',
+               'huber',
+               'squared_epsilon_insensitive')}
+done in 39.095s
+
+Best score: 0.941
+Best parameters set:
+	clf__loss: 'squared_hinge'
+Test set score: 0.903333
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__loss': ('log', 'perceptron', 'huber', 'squared_epsilon_insensitive')}
+done in 32.323s
+
+Best score: 0.935
+Best parameters set:
+	clf__loss: 'perceptron'
+Test set score: 0.908333
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__alpha': (0.001, 0.0001, 1e-05)}
+done in 26.143s
+
+Best score: 0.934
+Best parameters set:
+	clf__alpha: 1e-05
+Test set score: 0.906667
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__penalty': ('l1', 'elasticnet')}
+done in 18.876s
+
+Best score: 0.896
+Best parameters set:
+	clf__penalty: 'elasticnet'
+Test set score: 0.885000
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__class_weight': (None, 'balanced')}
+done in 17.989s
+
+Best score: 0.931
+Best parameters set:
+	clf__class_weight: None
+Test set score: 0.895000
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 5.968s
+
+Best score: 0.934
+Best parameters set:
+Test set score: 0.851667
+
+
+
+
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.242s
+
+Best score: 0.919
+Best parameters set:
+Test set score: 0.920000
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 3.258s
+
+Best score: 0.928
+Best parameters set:
+Test set score: 0.841667
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.887s
+
+Best score: 0.944
+Best parameters set:
+Test set score: 0.875000
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.266s
+
+Best score: 0.945
+Best parameters set:
+Test set score: 0.886667
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.796s
+
+Best score: 0.942
+Best parameters set:
+Test set score: 0.865000
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.25, 0.5, 0.75, 1.0),
+ 'vec__ngram_range': ((1, 1), (1, 2), (1, 3))}
+done in 59.765s
+
+Best score: 0.945
+Best parameters set:
+	vec__max_df: 0.5
+	vec__ngram_range: (1, 2)
+Test set score: 0.905000
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'tfidf__norm': ('l1', 'l2'), 'vec__max_features': (None, 5000, 10000, 50000)}
+done in 39.241s
+
+Best score: 0.946
+Best parameters set:
+	tfidf__norm: 'l2'
+	vec__max_features: 50000
+Test set score: 0.900000
+
+
+
+
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.281s
+
+Best score: 0.907
+Best parameters set:
+Test set score: 0.856667
+
+
+
+
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'clf__metric': ('manhattan', 'euclidean')}
+done in 5.645s
+
+Best score: 0.907
+Best parameters set:
+	clf__metric: 'euclidean'
+Test set score: 0.856667
+
+
+
+
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 26.114s
+
+Best score: 0.946
+Best parameters set:
+Test set score: 0.891667
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 17.407s
+
+Best score: 0.932
+Best parameters set:
+Test set score: 0.856667
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_df': (0.25, 0.5, 0.75, 1.0),
+ 'vec__ngram_range': ((1, 1), (1, 2), (1, 3))}
+done in 403.657s
+
+Best score: 0.948
+Best parameters set:
+	vec__max_df: 0.5
+	vec__ngram_range: (1, 2)
+Test set score: 0.918333
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{'vec__max_features': (None, 5000, 10000, 50000)}
+done in 102.660s
+
+Best score: 0.948
+Best parameters set:
+	vec__max_features: 50000
+Test set score: 0.911667
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 15.792s
+
+Best score: 0.945
+Best parameters set:
+Test set score: 0.926667
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 17.703s
+
+Best score: 0.947
+Best parameters set:
+Test set score: 0.911667
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 15.501s
+
+Best score: 0.948
+Best parameters set:
+Test set score: 0.915000
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 9.437s
+
+Best score: 0.952
+Best parameters set:
+Test set score: 0.933333
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 9.679s
+
+Best score: 0.952
+Best parameters set:
+Test set score: 0.933333
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 12.749s
+
+Best score: 0.951
+Best parameters set:
+Test set score: 0.926667
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 12.199s
+
+Best score: 0.953
+Best parameters set:
+Test set score: 0.928333
+
+
+
+
+method: Vote
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.556s
+
+Best score: 0.951
+Best parameters set:
+Test set score: 0.926667
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 17.528s
+
+Best score: 0.956
+Best parameters set:
+Test set score: 0.938333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 16.038s
+
+Best score: 0.956
+Best parameters set:
+Test set score: 0.938333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.550s
+
+Best score: 0.953
+Best parameters set:
+Test set score: 0.938333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.715s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.713s
+
+Best score: 0.893
+Best parameters set:
+method: RandomForest
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.184s
+
+Best score: 0.879
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.603s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.180s
+
+Best score: 0.941
+Best parameters set:
+method: multinomialNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 9.692s
+
+Best score: 0.871
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.370s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.517s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.189s
+
+Best score: 0.923
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.818s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.237s
+
+Best score: 0.945
+Best parameters set:
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.631s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.493s
+
+Best score: 0.893
+Best parameters set:
+method: RandomForest
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.635s
+
+Best score: 0.879
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.646s
+
+Best score: 0.941
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.314s
+
+Best score: 0.941
+Best parameters set:
+method: multinomialNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 10.236s
+
+Best score: 0.871
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.159s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.582s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.474s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.830s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.134s
+
+Best score: 0.945
+Best parameters set:
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.988s
+
+Best score: 0.953
+Best parameters set:
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.456s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.244s
+
+Best score: 0.941
+Best parameters set:
+Voting test score: 0.000000
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.347s
+
+Best score: 0.941
+Best parameters set:
+Voting test score: 0.000000
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.233s
+
+Best score: 0.941
+Best parameters set:
+Voting test score: 0.000000
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.409s
+
+Best score: 0.941
+Best parameters set:
+Voting test score: 0.000000
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.164s
+
+Best score: 0.941
+Best parameters set:
+Voting test score: 0.918333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.531s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.656s
+
+Best score: 0.893
+Best parameters set:
+method: RandomForest
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.101s
+
+Best score: 0.879
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.748s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.137s
+
+Best score: 0.941
+Best parameters set:
+method: multinomialNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 9.093s
+
+Best score: 0.871
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.742s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.743s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.440s
+
+Best score: 0.914
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.153s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.599s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.911667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.785s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.597s
+
+Best score: 0.893
+Best parameters set:
+method: RandomForest
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.143s
+
+Best score: 0.879
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.494s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.891s
+
+Best score: 0.941
+Best parameters set:
+method: multinomialNB
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 9.234s
+
+Best score: 0.871
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.564s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.782s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.028s
+
+Best score: 0.911
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.659s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.220s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.928333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.519s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.869s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.922s
+
+Best score: 0.941
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.612s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.455s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.743s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.498s
+
+Best score: 0.916
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.389s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.765s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.933333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.606s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.783s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.938s
+
+Best score: 0.917
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.313s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.987s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.943333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.561s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.017s
+
+Best score: 0.893
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.601s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.083s
+
+Best score: 0.918
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.952s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.321s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.931667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 11.162s
+
+Best score: 0.953
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.926s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.786s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.246s
+
+Best score: 0.917
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.679s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.877s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.931667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.455s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.999s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.992s
+
+Best score: 0.929
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.505s
+
+Best score: 0.914
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.158s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.439s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.940000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.453s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.192s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.326s
+
+Best score: 0.916
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.584s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.941667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.705s
+
+Best score: 0.953
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.000s
+
+Best score: 0.914
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.677s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.632s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.515s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.187s
+
+Best score: 0.941
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.760s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.468s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.935000
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.473s
+
+Best score: 0.914
+Best parameters set:
+Test set score: 0.876667
+
+
+
+
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 8.672s
+
+Best score: 0.914
+Best parameters set:
+Test set score: 0.876667
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.599s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.176s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.265s
+
+Best score: 0.913
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.872s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.355s
+
+Best score: 0.914
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.417s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.928333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.650s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.645s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.541s
+
+Best score: 0.917
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.134s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.744s
+
+Best score: 0.945
+Best parameters set:
+Voting test score: 0.938333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.155s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.184s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.636s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.459s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 20.349s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.424s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.098s
+
+Best score: 0.915
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 8.346s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 8.204s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.876667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.915000
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.943333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.231s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.402s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.435s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.999s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.790s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.621s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.388s
+
+Best score: 0.921
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.037s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.374s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.871667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.911667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.082s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.484s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.702s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.407s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 16.371s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.586s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.727s
+
+Best score: 0.917
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.115s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.141s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.876667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.910000
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.089s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.780s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.782s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.142s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.974s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.697s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.374s
+
+Best score: 0.911
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.176s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.569s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.875000
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.913333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.938333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.502s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.426s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.572s
+
+Best score: 0.938
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.192s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.217s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.603s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.432s
+
+Best score: 0.914
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.983s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.854s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.871667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.921667
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.938333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.499s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.694s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.570s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.241s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.647s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.516s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.350s
+
+Best score: 0.919
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.050s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.496s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.871667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.898333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.931667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.559s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.585s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.546s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.259s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.718s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.454s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.013s
+
+Best score: 0.917
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.213s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.556s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.873333
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.896667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.325s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.552s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.497s
+
+Best score: 0.941
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.260s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 16.027s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.164s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.992s
+
+Best score: 0.923
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.730s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.565s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.881667
+ridge test set score: 0.916667
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.915000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.598s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.234s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.403s
+
+Best score: 0.917
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.141s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.691s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.905000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.933333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.917s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.250s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.599s
+
+Best score: 0.911
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.151s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.143s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.908333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.232s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.659s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.135s
+
+Best score: 0.914
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.556s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.240s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.898333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.686s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.196s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.344s
+
+Best score: 0.919
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.689s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.188s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.905000
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.933333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.725s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.800s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.639s
+
+Best score: 0.938
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.394s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.785s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.591s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.539s
+
+Best score: 0.908
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.089s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.674s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.881667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.908333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.938333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.372s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.580s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.584s
+
+Best score: 0.938
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.370s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.104s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.635s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.262s
+
+Best score: 0.921
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.034s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.633s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.878333
+ridge test set score: 0.916667
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.923333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.442s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.794s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.563s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.336s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.604s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.685s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.440s
+
+Best score: 0.912
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.969s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.568s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.878333
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.913333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.426s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.803s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.814s
+
+Best score: 0.938
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.491s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.396s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.030s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.210s
+
+Best score: 0.916
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.782s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.138s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.871667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.921667
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.931667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.345s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.697s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.530s
+
+Best score: 0.938
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.073s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.146s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.750s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.156s
+
+Best score: 0.923
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.810s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.090s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.878333
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.916667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.242s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.602s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.654s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.333s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.592s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.695s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 8.084s
+
+Best score: 0.918
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.551s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.380s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.876667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.911667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.940000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.076s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.406s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.525s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.472s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.874s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.410s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.070s
+
+Best score: 0.913
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.916s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.640s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.870000
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.910000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.581s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.644s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.517s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.223s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.047s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.467s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.131s
+
+Best score: 0.912
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.889s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.090s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.873333
+ridge test set score: 0.916667
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.903333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.931667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.501s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.576s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.606s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.403s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.483s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.530s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.234s
+
+Best score: 0.917
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.947s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.507s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.880000
+ridge test set score: 0.916667
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.896667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.933333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.398s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.457s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.490s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.109s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.939s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.585s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.251s
+
+Best score: 0.918
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.000s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.288s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.871667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.910000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.501s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.431s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.409s
+
+Best score: 0.938
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.027s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.183s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.397s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.913s
+
+Best score: 0.918
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.419s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.397s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.878333
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.903333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.309s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.900s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.957s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.245s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.018s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.623s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.212s
+
+Best score: 0.916
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.996s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.518s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.873333
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.916667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.476s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.703s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.575s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.203s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.477s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.816s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.409s
+
+Best score: 0.914
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.077s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.970s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.881667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.920000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.940000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 8.728s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.645s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.365s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.149s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.341s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.412s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.008s
+
+Best score: 0.916
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.642s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.111s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.876667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.921667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 8.910s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.371s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.326s
+
+Best score: 0.938
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.136s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.867s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.626s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.278s
+
+Best score: 0.911
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.963s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.342s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.878333
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.920000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.938333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.014s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.783s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.570s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.097s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.667s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.536s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.168s
+
+Best score: 0.920
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.813s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.301s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.881667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.916667
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.936667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.300s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.477s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.365s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.017s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.219s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.439s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.970s
+
+Best score: 0.914
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.540s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.987s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.883333
+ridge test set score: 0.916667
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.913333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.086s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.593s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.499s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.847s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.169s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.434s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.936s
+
+Best score: 0.918
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.923s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.126s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.876667
+ridge test set score: 0.916667
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.918333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.930000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.247s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.627s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.605s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.016s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.022s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.600s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.231s
+
+Best score: 0.923
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.250s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.753s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.866667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.910000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.930000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.522s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.677s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.558s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.040s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.086s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.786s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.239s
+
+Best score: 0.918
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.971s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.530s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.881667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.910000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.933333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.436s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.641s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.595s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.118s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.920s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.648s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.458s
+
+Best score: 0.921
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.197s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.504s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.865000
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.916667
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.513s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.630s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.667s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.426s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.877s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.657s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.338s
+
+Best score: 0.916
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.134s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.345s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.878333
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.916667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.938333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.438s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.569s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.583s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.207s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.579s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.582s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.344s
+
+Best score: 0.912
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.092s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.668s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.875000
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.911667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.938333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.465s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.701s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.760s
+
+Best score: 0.936
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.235s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.778s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.706s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.259s
+
+Best score: 0.915
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.951s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.648s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.876667
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.896667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.931667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.355s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.619s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.724s
+
+Best score: 0.941
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.068s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.406s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.723s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.215s
+
+Best score: 0.911
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.813s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.375s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.873333
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.906667
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.288s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.561s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.597s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.194s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.059s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.703s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.169s
+
+Best score: 0.924
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.903s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.458s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.875000
+ridge test set score: 0.916667
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.915000
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.936667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.262s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.630s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.598s
+
+Best score: 0.938
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.309s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.758s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.855s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.246s
+
+Best score: 0.913
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.919s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.429s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.871667
+ridge test set score: 0.916667
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.900000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.931667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.338s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.788s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.560s
+
+Best score: 0.938
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.258s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 14.302s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.687s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.231s
+
+Best score: 0.922
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.169s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.311s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.873333
+ridge test set score: 0.916667
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.903333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.933333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.448s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.669s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.632s
+
+Best score: 0.939
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.156s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.863s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.569s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.288s
+
+Best score: 0.921
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.844s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.257s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.870000
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.910000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.478s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.588s
+
+Best score: 0.893
+Best parameters set:
+method: PassiveAggressive
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.662s
+
+Best score: 0.940
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.120s
+
+Best score: 0.941
+Best parameters set:
+method: KNN
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 13.849s
+
+Best score: 0.929
+Best parameters set:
+method: NearestCentroid
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 2.800s
+
+Best score: 0.907
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.201s
+
+Best score: 0.915
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.795s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.547s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+perceptron test set score: 0.891667
+passive_aggressive test set score: 0.878333
+ridge test set score: 0.918333
+knn test set score: 0.891667
+nearest_centroid test set score: 0.856667
+sgd test set score: 0.908333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.006s
+
+Best score: 0.953
+Best parameters set:
+method: Perceptron
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.137s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.092s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.910s
+
+Best score: 0.924
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.785s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.404s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.905000
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.497s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.219s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.180s
+
+Best score: 0.910
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.018s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.543s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.916667
+sgd test set score: 0.906667
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.931667
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.469s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.182s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.259s
+
+Best score: 0.916
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.828s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.568s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.898333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.501s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.236s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.142s
+
+Best score: 0.912
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.640s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.344s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.916667
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.940000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.585s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.427s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.329s
+
+Best score: 0.913
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.874s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.613s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.923333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.938333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.830s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.266s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.360s
+
+Best score: 0.919
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.197s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.068s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.910000
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.933333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.470s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.346s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.403s
+
+Best score: 0.920
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.845s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.476s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.916667
+sgd test set score: 0.911667
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.940000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.101s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 4.633s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.496s
+
+Best score: 0.916
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.223s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.765s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.913333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.943333
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.192s
+
+Best score: 0.953
+Best parameters set:
+Test set score: 0.938333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.659s
+
+Best score: 0.953
+Best parameters set:
+Test set score: 0.938333
+
+
+
+
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 12.339s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.189s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.546s
+
+Best score: 0.919
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.491s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.927s
+
+Best score: 0.945
+Best parameters set:
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 12.376s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.628s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.582s
+
+Best score: 0.925
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 8.658s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.578s
+
+Best score: 0.945
+Best parameters set:
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 11.228s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.389s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.588s
+
+Best score: 0.920
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 7.306s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.739s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.913333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 9.602s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.343s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.799s
+
+Best score: 0.917
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 8.791s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.707s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.928333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.938333
+Voting test cross: 2.293128
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 10.237s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 3.685s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.011s
+
+Best score: 0.918
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 6.688s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 6.595s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.933333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.945000
+Voting test cross: 2.296619
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 11.433s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.796s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.658s
+
+Best score: 0.919
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 8.550s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 8.369s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.906667
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+Voting test cross: 2.311787
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 11.296s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.475s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.709s
+
+Best score: 0.919
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 8.169s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 8.088s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.923333
+selected_svc test set score: 0.890000
+svc test set score: 0.905000
+Voting test score: 0.935000
+Voting test cross: 2.289882
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 11.252s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 5.643s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 8.058s
+
+Best score: 0.913
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
+done in 9.364s
+
+Best score: 0.926
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.978s
+
+Best score: 0.945
+Best parameters set:
+bernoulliNB test set score: 0.938333
+ridge test set score: 0.918333
+sgd test set score: 0.908333
+selected_svc test set score: 0.891667
+svc test set score: 0.905000
+Voting test score: 0.935000
+Voting test cross: 2.313008
+method: BernoulliNB
+preprocessing: none
+decomposition: none
+feature_selection: chi
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'chi', 'clf']
+{}
+done in 13.599s
+
+Best score: 0.953
+Best parameters set:
+method: Ridge
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 7.214s
+
+Best score: 0.941
+Best parameters set:
+method: SGD
+preprocessing: none
+decomposition: none
+feature_selection: none
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'clf']
+{}
+done in 9.676s
+
+Best score: 0.927
+Best parameters set:
+method: SVM
+preprocessing: none
+decomposition: none
+feature_selection: l1
+features: pure TFIDF
+
+
+pipeline: ['vec', 'tfidf', 'feature_selection', 'clf']
+{}
